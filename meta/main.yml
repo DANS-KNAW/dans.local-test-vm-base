@@ -1,6 +1,6 @@
 galaxy_info:
   author: DANS-KNAW
-  description: Ansible role that sets up a basic test vm with httpd and some other common utilsl
+  description: Ansible role that sets up a basic test vm with httpd and some other common utils.
   company: "DANS-KNAW"
   license: "Apache 2.0"
   min_ansible_version: 2.3
