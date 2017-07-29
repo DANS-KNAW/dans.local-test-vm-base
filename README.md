@@ -1,15 +1,14 @@
 dans.openldap
 =============
 
-Ansible role that installs OpenLDAP on a yum-enabled system.
+Ansible role that sets up a basic test vm with httpd and some other common utils.
 
 SYNOPSIS
 --------
 
-    ansible-galaxy install [-f] https://github.com/DANS-KNAW/dans.openldap
+    ansible-galaxy install [-f] https://github.com/DANS-KNAW/dans.local-test-vm-base
     
     
 DESCRIPTION
 -----------
-Installs `openldap-servers` and `openldap-clients` and removes the default database from the system
-after the first install.
+Installs httpd and some other common utils on a test vm.
