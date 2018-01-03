@@ -16,5 +16,5 @@
      policy: targeted
      state: enforcing
 
-- include: httpd.yml
+- import_tasks: httpd.yml
   when: local_test_vm_install_httpd
